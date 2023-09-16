@@ -25,6 +25,7 @@ const config = {
   organizationName: 'insumanth', // Usually your GitHub org/user name.
   projectName: `${repo}`, // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
